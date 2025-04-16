@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Farelly Fishing</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1c1c1c, #3a3a3a);
+      color: #f0f0f0;
+    }
+    header {
+      background-color: #222;
+      padding: 20px 0;
+      text-align: center;
+      border-bottom: 2px solid gold;
+    }
+    header h1 {
+      color: gold;
+      font-size: 2.5em;
+      margin: 0;
+    }
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid #333;
+    }
+    nav a {
+      color: #f0f0f0;
+      text-decoration: none;
+      padding: 15px 25px;
+      display: block;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #333;
+    }
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .section h2 {
+      color: gold;
+      margin-bottom: 20px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .product {
+      background-color: #2e2e2e;
+      border: 1px solid #444;
+      border-radius: 10px;
+      margin: 15px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+      transition: transform 0.3s;
+    }
+    .product:hover {
+      transform: scale(1.05);
+    }
+    .product img.logo {
+      max-width: 100px;
+      margin-bottom: 10px;
+    }
+    .product h3 {
+      color: #ffd700;
+    }
+    .price {
+      font-size: 1.2em;
+      color: #ccc;
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Farelly Fishing</h1>
+    <p>SOLUSI MANCING ASIK HANYA DI SINI!</p>
+  </header>
+
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#layanan">Layanan</a>
+    <a href="#informasi">Informasi</a>
+    <a href="#tentang">Tentang Kami</a>
+  </nav>
+
+  <!-- Beranda -->
+  <section id="beranda" class="section">
+    <h2>Selamat Datang di Farelly Fishing</h2>
+    <p>kualitas dan kepuasan anda adalah misi kami.</p>
+  </section>
+
+  <!-- Produk -->
+  <section id="layanan" class="section">
+    <h2>Produk Kami</h2>
+    <div class="container">
+      <div class="product">
+        <img class="logo" src="download.jpg" alt="Shimano Logo">
+        <h3>Shimano</h3>
+        <p class="price">Rp900.000</p>
+      </div>
+      <div class="product">
+        <img class="logo" src="e27ba19c-e7ba-4854-acf2-bc130912a7c4.jpg" alt="Daiwa Logo">
+        <h3>Daiwa</h3>
+        <p class="price">Rp1.000.000</p>
+      </div>
+      <div class="product">
+        <img class="logo" src="abu.jpg" alt="Abu Garcia Logo">
+        <h3>Abu Garcia</h3>
+        <p class="price">Rp8.000.000</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Informasi -->
+  <section id="informasi" class="section">
+    <h2>Informasi</h2>
+    <p>Pengiriman ke seluruh Indonesia. Pembayaran dapat dilakukan melalui transfer bank, e-wallet, atau COD di beberapa area tertentu.</p>
+  </section>
+
+  <!-- Tentang -->
+  <section id="tentang" class="section">
+    <h2>Tentang Farelly Fishing</h2>
+    <p>
+      Farelly Fishing adalah penyedia alat pancing yang sudah berdiri sejak tahun 2001 dengan segala inovasi yang baru membuat pengalaman memnacing lebih asik dan menyenangkan, mengedepankan kualitas dan kepuasan para pemancing 
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Farelly Fishing | Semua Hak Dilindungi
+  </footer>
+
+</body>
+</html>
